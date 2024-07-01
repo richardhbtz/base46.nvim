@@ -99,11 +99,7 @@ function M.get_dir_modules(dir_path)
 end
 
 function M.load_theme(user_opts)
-    local opts = {
-        base = "base46",
-        theme = "",
-        transparency = false,
-    }
+    local opts = {}
 
     opts = M.merge_tbl(opts, user_opts)
 

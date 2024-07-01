@@ -1,6 +1,6 @@
 -- integration module names
 return {
-    "blitztab",
+    "blitztabuf",
     "bufferline",
     "cmp",
     "devicons",
